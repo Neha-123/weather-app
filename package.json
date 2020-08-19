@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "homepage": "https://neha-123.github.io/weather-app/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy":"npm build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
